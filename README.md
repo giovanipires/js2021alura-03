@@ -9,3 +9,15 @@
     <li>Problemas de duplicação de código</li>
     <li>Problemas de código extremamente compartilhado</li>
 </ol>
+
+<h2>Aula 02: Herança</h2>
+<ol>
+    <li>Especializando código</li>
+    <li>Herdando propriedades e atributos</li>
+    <li>Sobrecarga de métodos</li>
+    <li>Compartilhando código de forma segura</li>
+    <li>Mantendo nosso código na linguagem do cliente</li>
+    <li>Evitando código muito complicado através da herança</li>
+    <li>Palavra-chave Super</li>
+    <li>Método e propriedades privadas e protegidas</li>
+</ol>
