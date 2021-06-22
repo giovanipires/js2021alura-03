@@ -21,3 +21,12 @@
     <li>Palavra-chave Super</li>
     <li>Método e propriedades privadas e protegidas</li>
 </ol>
+<h2>Aula 03: Classes Abstratas</h2>
+<ol>
+    <li>Como o JS sabe quem está sendo instanciado.</li>
+    <li>Pesando na proteção do nosso sistema</li>
+    <li>Lançando erros para o sistema</li>
+    <li>Classes abstratas</li>
+    <li>Métodos abstratos</li>
+    <li>Erros em tempo de execução</li>
+</ol>

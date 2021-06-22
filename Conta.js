@@ -1,3 +1,4 @@
+// classe abstrata
 export class Conta {
 
 	constructor(agencia, cliente, valorInicial) {
@@ -23,9 +24,9 @@ export class Conta {
         return this._saldo;
     }
 
-	sacar(valor){
-		let taxa = 1;
-		return this._sacar(valor, taxa);
+    // método abstrato
+	sacar(valor) {
+        throw new Error ("O método sacar da Conta é abstrato.");
     }
 
     _sacar(valor, taxa) {
