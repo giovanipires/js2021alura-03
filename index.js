@@ -1,28 +1,21 @@
-import {Cliente} from "./Cliente.js";
-import {ContaCorrente} from "./ContaCorrente.js";
-import {ContaPoupanca} from "./ContaPoupanca.js";
-import {ContaSalario} from "./ContaSalario.js";
+// Utilizados na primeira parte do curso
+// import {ContaCorrente} from "./Conta/ContaCorrente.js";
+// import {ContaPoupanca} from "./Conta/ContaPoupanca.js";
+// import {ContaSalario} from "./Conta/ContaSalario.js";
 
-const cliente1 = new Cliente("Giovani", 11122233309);
+import {Pessoa} from "./Pessoa/Pessoa.js";
+import {Cliente} from "./Pessoa/Cliente.js";
+import {Funcionario} from "./Pessoa/Funcionario.js";
+import {Gerente} from "./Pessoa/Gerente.js";
+import {Diretor} from "./Pessoa/Diretor.js";
+import {SistemaDeAutenticacao} from "./SistemaDeAutenticacao.js";
 
-const contaCorrenteGiovani = new ContaCorrente(1001, cliente1, 0);
-const contaPoupancaGiovani = new ContaPoupanca(1001, cliente1, 100);
+const diretor = new Diretor("Giovani", "05495138806", 10000);
+diretor.cadastrarSenha("123456789");
 
-contaCorrenteGiovani.depositar(1000);
-contaCorrenteGiovani.transferir(300, contaPoupancaGiovani);
+const gerente = new Gerente("Marianna", "05495137705", 7000);
+gerente.cadastrarSenha("987654321");
 
-contaCorrenteGiovani.sacar(70);
-contaPoupancaGiovani.sacar(30);
+const estaLogado = SistemaDeAutenticacao.login(diretor, "123456789");
 
-console.log(contaCorrenteGiovani);
-console.log(contaPoupancaGiovani);
-
-// const instaciandoConta = new Conta(1001, cliente1,0);
-// console.log(instaciandoConta);
-
-const contaSalarioGiovani = new ContaSalario(`1001-S`,cliente1);
-contaSalarioGiovani.depositar(1000);
-console.log(contaSalarioGiovani);
-
-contaSalarioGiovani.sacar(100);
-console.log(contaSalarioGiovani);
+console.log(estaLogado);
