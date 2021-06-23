@@ -30,3 +30,10 @@
     <li>Métodos abstratos</li>
     <li>Erros em tempo de execução</li>
 </ol>
+<h2>Aula 04: Sistema Interno</h2>
+<ol>
+    <li>Revisão de herança,boas práticas de código e encapsulamento</li>
+    <li>Polimorfismo</li>
+    <li>Métodos estáticos</li>
+    <li>Maneiras de tratar objetos de diferentes tipos de maneira parecida</li>
+</ol>
