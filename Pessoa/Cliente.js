@@ -8,6 +8,6 @@ export class Cliente extends Pessoa {
 	}
 
 	autenticar() {
-		return false;
+		return true;
 	}
 }

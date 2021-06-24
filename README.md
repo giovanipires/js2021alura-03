@@ -37,3 +37,11 @@
     <li>Métodos estáticos</li>
     <li>Maneiras de tratar objetos de diferentes tipos de maneira parecida</li>
 </ol>
+<h2>Aula 05: Interfaces e Duck Type</h2>
+<ol>
+    <li>operador in</li>
+    <li>operador instanceOf</li>
+    <li>Como proteger nossos sistemas</li>
+    <li>interfaces padronizadas</li>
+    <li>Duck type</li>
+</ol>
